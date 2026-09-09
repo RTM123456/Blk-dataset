@@ -1,0 +1,634 @@
+{
+  "status": "passed",
+  "error_count": 0,
+  "errors": [],
+  "checks": [
+    {
+      "check": "repository_count",
+      "passed": true,
+      "detail": "observed=28, expected=28"
+    },
+    {
+      "check": "case_count",
+      "passed": true,
+      "detail": "observed=29, expected=29"
+    },
+    {
+      "check": "unique_case_ids",
+      "passed": true,
+      "detail": "case IDs are unique"
+    },
+    {
+      "check": "status_counts",
+      "passed": true,
+      "detail": "Counter({'ready': 28, 'reference_only': 1})"
+    },
+    {
+      "check": "rocketchat_yarn_implant:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_yarn_implant:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_yarn_implant:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_yarn_implant:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "rocketchat_yarn_implant2:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_yarn_implant2:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_yarn_implant2:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_yarn_implant2:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "daylight_savings_dos:range_exact",
+      "passed": true,
+      "detail": "observed=44, expected=44"
+    },
+    {
+      "check": "daylight_savings_dos:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "daylight_savings_dos:malicious_count",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "daylight_savings_dos:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=2"
+    },
+    {
+      "check": "rolling_deploy_delete_all:range_exact",
+      "passed": true,
+      "detail": "observed=12, expected=12"
+    },
+    {
+      "check": "rolling_deploy_delete_all:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rolling_deploy_delete_all:malicious_count",
+      "passed": true,
+      "detail": "observed=3, expected=3"
+    },
+    {
+      "check": "rolling_deploy_delete_all:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=3"
+    },
+    {
+      "check": "dosik_database_attack:range_exact",
+      "passed": true,
+      "detail": "observed=96, expected=96"
+    },
+    {
+      "check": "dosik_database_attack:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "dosik_database_attack:malicious_count",
+      "passed": true,
+      "detail": "observed=6, expected=6"
+    },
+    {
+      "check": "dosik_database_attack:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=6"
+    },
+    {
+      "check": "rocketchat_sariel_attempt5:range_exact",
+      "passed": true,
+      "detail": "observed=10, expected=10"
+    },
+    {
+      "check": "rocketchat_sariel_attempt5:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_sariel_attempt5:malicious_count",
+      "passed": true,
+      "detail": "observed=3, expected=3"
+    },
+    {
+      "check": "rocketchat_sariel_attempt5:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=3"
+    },
+    {
+      "check": "rocketchat_licence_payload:range_exact",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "rocketchat_licence_payload:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_licence_payload:malicious_count",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "rocketchat_licence_payload:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=2"
+    },
+    {
+      "check": "rocket_chat_hidden_license:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocket_chat_hidden_license:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocket_chat_hidden_license:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocket_chat_hidden_license:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "rocketchat_license:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_license:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_license:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_license:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "rocketchat_sariel_attempt2:range_exact",
+      "passed": true,
+      "detail": "observed=5, expected=5"
+    },
+    {
+      "check": "rocketchat_sariel_attempt2:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_sariel_attempt2:malicious_count",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "rocketchat_sariel_attempt2:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=2"
+    },
+    {
+      "check": "rocketchat_roni_cache:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_roni_cache:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_roni_cache:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_roni_cache:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "rocketchat_roni_mutex:range_exact",
+      "passed": true,
+      "detail": "observed=4, expected=4"
+    },
+    {
+      "check": "rocketchat_roni_mutex:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_roni_mutex:malicious_count",
+      "passed": true,
+      "detail": "observed=4, expected=4"
+    },
+    {
+      "check": "rocketchat_roni_mutex:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=4"
+    },
+    {
+      "check": "rocketchat_hoch:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "rocketchat_hoch:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_hoch:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rocketchat_hoch:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "ori_fleetbase_v4:range_exact",
+      "passed": true,
+      "detail": "observed=53, expected=53"
+    },
+    {
+      "check": "ori_fleetbase_v4:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "ori_fleetbase_v4:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "ori_fleetbase_v4:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "record_store_app:range_exact",
+      "passed": true,
+      "detail": "observed=13, expected=13"
+    },
+    {
+      "check": "record_store_app:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "record_store_app:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "record_store_app:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "wikijs_hoch:range_exact",
+      "passed": true,
+      "detail": "observed=17, expected=17"
+    },
+    {
+      "check": "wikijs_hoch:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "wikijs_hoch:malicious_count",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "wikijs_hoch:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=2"
+    },
+    {
+      "check": "yael_snipeit:range_exact",
+      "passed": true,
+      "detail": "observed=120, expected=120"
+    },
+    {
+      "check": "yael_snipeit:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "yael_snipeit:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "yael_snipeit:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "new_features_reference:reference_only_empty",
+      "passed": true,
+      "detail": "no fabricated commit/file rows"
+    },
+    {
+      "check": "ardupilot:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "ardupilot:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "ardupilot:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "ardupilot:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "movie_tracker:range_exact",
+      "passed": true,
+      "detail": "observed=10, expected=10"
+    },
+    {
+      "check": "movie_tracker:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "movie_tracker:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "movie_tracker:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "traccar:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "traccar:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "traccar:malicious_count",
+      "passed": true,
+      "detail": "observed=4, expected=4"
+    },
+    {
+      "check": "traccar:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=4"
+    },
+    {
+      "check": "rocketchat_suite:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "rocketchat_suite:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rocketchat_suite:malicious_count",
+      "passed": true,
+      "detail": "observed=5, expected=5"
+    },
+    {
+      "check": "rocketchat_suite:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=5"
+    },
+    {
+      "check": "opentripplanner:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "opentripplanner:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "opentripplanner:malicious_count",
+      "passed": true,
+      "detail": "observed=2, expected=2"
+    },
+    {
+      "check": "opentripplanner:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=2"
+    },
+    {
+      "check": "wiki2:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "wiki2:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "wiki2:malicious_count",
+      "passed": true,
+      "detail": "observed=5, expected=5"
+    },
+    {
+      "check": "wiki2:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=5"
+    },
+    {
+      "check": "stackstorm2:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "stackstorm2:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "stackstorm2:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "stackstorm2:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "stackstorm1:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "stackstorm1:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "stackstorm1:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "stackstorm1:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "wiki1:range_exact",
+      "passed": true,
+      "detail": "observed=50, expected=50"
+    },
+    {
+      "check": "wiki1:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "wiki1:malicious_count",
+      "passed": true,
+      "detail": "observed=4, expected=4"
+    },
+    {
+      "check": "wiki1:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=4"
+    },
+    {
+      "check": "rich:range_exact",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rich:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "rich:malicious_count",
+      "passed": true,
+      "detail": "observed=1, expected=1"
+    },
+    {
+      "check": "rich:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=1"
+    },
+    {
+      "check": "mapstore2:range_exact",
+      "passed": true,
+      "detail": "observed=20, expected=20"
+    },
+    {
+      "check": "mapstore2:base_ancestor",
+      "passed": true,
+      "detail": "last benign commit is an ancestor of tip"
+    },
+    {
+      "check": "mapstore2:malicious_count",
+      "passed": true,
+      "detail": "observed=3, expected=3"
+    },
+    {
+      "check": "mapstore2:canonical_labels_in_range",
+      "passed": true,
+      "detail": "labels=3"
+    },
+    {
+      "check": "file_rows_in_commit_diffs",
+      "passed": true,
+      "detail": "validated=124"
+    },
+    {
+      "check": "unique_case_positions",
+      "passed": true,
+      "detail": "duplicates=0"
+    },
+    {
+      "check": "checksum:cases.csv",
+      "passed": true,
+      "detail": "1de640c2420adf9078ad2aa7915ed414055eb81a00246b6382433ba01ff2e6cd"
+    },
+    {
+      "check": "checksum:cases.jsonl",
+      "passed": true,
+      "detail": "ca38df8fb542d58e0c356aa471a27f0051598928e5663ab85974ce9247eec991"
+    },
+    {
+      "check": "checksum:commits.csv",
+      "passed": true,
+      "detail": "789a8387b4652701b2bb5e541a4ebda013b8e527ec08f87d97c0c699c6b0e195"
+    },
+    {
+      "check": "checksum:malicious_files.csv",
+      "passed": true,
+      "detail": "5624d477ec1c344ace5da4f4cc67b04a04831a821c745280208a56e36cdfaceb"
+    },
+    {
+      "check": "checksum:repositories.csv",
+      "passed": true,
+      "detail": "c7b5bfabae78a69393fcae7fe743772731c519c1d8cc7242e9ee91590d789189"
+    }
+  ],
+  "totals": {
+    "repositories": 28,
+    "cases": 29,
+    "commit_rows": 862,
+    "malicious_commit_rows": 61,
+    "malicious_file_rows": 124
+  }
+}

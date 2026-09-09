@@ -1,0 +1,33 @@
+{
+  "case_count": 29,
+  "files": {
+    "cases.csv": {
+      "bytes": 18880,
+      "sha256": "1de640c2420adf9078ad2aa7915ed414055eb81a00246b6382433ba01ff2e6cd"
+    },
+    "cases.jsonl": {
+      "bytes": 111463,
+      "sha256": "ca38df8fb542d58e0c356aa471a27f0051598928e5663ab85974ce9247eec991"
+    },
+    "commits.csv": {
+      "bytes": 258270,
+      "sha256": "789a8387b4652701b2bb5e541a4ebda013b8e527ec08f87d97c0c699c6b0e195"
+    },
+    "malicious_files.csv": {
+      "bytes": 51173,
+      "sha256": "5624d477ec1c344ace5da4f4cc67b04a04831a821c745280208a56e36cdfaceb"
+    },
+    "repositories.csv": {
+      "bytes": 1715,
+      "sha256": "c7b5bfabae78a69393fcae7fe743772731c519c1d8cc7242e9ee91590d789189"
+    }
+  },
+  "generated_from": "C:\\Users\\reuve\\Documents\\Codex\\2026-07-30\\https-chatgpt-com-share-6a6b5a0c-2758\\work\\repos_bare",
+  "malicious_commit_rows": 61,
+  "malicious_file_rows": 124,
+  "range_commit_rows": 862,
+  "ready_case_count": 28,
+  "reference_only_case_count": 1,
+  "repository_count": 28,
+  "schema_version": "1.0"
+}
