@@ -25,4 +25,4 @@ This dataset contains 28 red-team implant-corpus repositories represented as 29 
 
 For each ready case, check out `last_benign_sha`, review the commits in `range_revspec`, and compare model predictions against `canonical_malicious_shas`.  Report commit-level precision/recall and full-campaign detection; do not count a multi-commit campaign as fully detected merely because one malicious commit was found.
 
-Note: `malicious_commit_dataset_og` contains the original data with incorrect SHAs, while `malicious_commit_dataset_fixed` holds the corrected versions.
+Note: `malicious_commit_dataset_obsolete` contains the original data with incorrect SHAs, while `malicious_commit_dataset_fixed` holds the corrected versions.
