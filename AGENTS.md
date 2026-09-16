@@ -115,17 +115,3 @@ Each case in the dataset has been validated for:
 - **Malicious Count**: The observed number of malicious commits matches the expected count.
 - **Canonical Labels in Range**: The number of canonical malicious labels in the range matches expectations.
 
-## Fixes Applied
-
-### SHA Resolution
-- **Commit Resolution**: The `fix_shas.py` script resolved commit SHAs by matching commit subjects and author dates in the repository history. This ensured that the corrected SHAs point to the actual commits present in the upstream repositories.
-
-### File Updates
-- **commits.csv**: Corrected SHAs for all commits and updated related fields like `parent_shas`.
-- **malicious_files.csv**: Updated SHAs for malicious files.
-- **cases.csv**: Replaced SHA values and synchronized range boundaries.
-
-## Final Notes
-- **Use `malicious_commit_dataset_fixed`**: Always use the corrected dataset for accurate evaluation and analysis.
-- **Avoid `malicious_commit_dataset_obsolete`**: The original dataset contains incorrect SHAs and should not be used.
-- **Refer to Validation Report**: Review `validation_report.json` for detailed validation checks and status.
